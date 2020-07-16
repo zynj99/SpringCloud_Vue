@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>consul</module>
+        <module>consul-demo</module>
     </modules>
 
     <!--
@@ -18,8 +19,18 @@
         这样可以统一管理工程中用到的依赖版本
     -->
     <properties>
+        <spring-boot-start.version>2.2.4.RELEASE</spring-boot-start.version>
+        <!-- Spring Cloud Hoxton.SR1 依赖 -->
+        <spring-cloud-dependencies.version>Hoxton.SR1</spring-cloud-dependencies.version>
+        <spring-boot-starter-web.version>2.3.1.RELEASE</spring-boot-starter-web.version>
+        <spring-boot-starter-actuator.version>2.2.6.RELEASE</spring-boot-starter-actuator.version>
+        <spring-cloud-starter-consul-discovery.version>2.2.2.RELEASE</spring-cloud-starter-consul-discovery.version>
+        <spring-cloud-starter-consul-config.version>2.2.2.RELEASE</spring-cloud-starter-consul-config.version>
+        <spring-boot-starter-test.version>2.3.1.RELEASE</spring-boot-starter-test.version>
         <spring-boot.version>2.2.4.RELEASE</spring-boot.version>
         <!-- Spring Cloud Hoxton.SR1 依赖 -->
         <spring-cloud.version>Hoxton.SR1</spring-cloud.version>
+        <!-- 工具类库版本 -->
+        <lombok.version>1.18.12</lombok.version>
     </properties>
 </project>
